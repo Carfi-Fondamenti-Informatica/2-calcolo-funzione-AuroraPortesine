@@ -13,5 +13,5 @@ int main() {
     }else{
         z=a*x+b*(y*y);
     }
-    cout << " \nz=" << z<< endl;
+    cout << z << endl;
 }
