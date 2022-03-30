@@ -3,7 +3,7 @@ using namespace std;
 
 int main() {
     float a, b, x, y;
-    int z=0;
+    int z;
     cin >> a >> b >> x >> y;
 
     if(x<0 && y>0){
