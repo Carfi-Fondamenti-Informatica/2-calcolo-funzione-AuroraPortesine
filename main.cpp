@@ -3,15 +3,14 @@ using namespace std;
 
 int main() {
     float a, b, x, y;
-    int z;
     cin >> a >> b >> x >> y;
     if(x<0 && y>0){
-        z=a*x-b*y;
+        cout << (a*x)-(b*y) << endl;
     }else if(x>=0 && y<=0){
-        z=a*(x*x) - b*y;
+        cout << a*(x*x) - b*y << endl;
     }else{
-        z=a*x+b*(y*y);
+        cout << a*x+b*(y*y) << endl;
     }
-    cout << z << endl;
+    return 0;
 }
 
